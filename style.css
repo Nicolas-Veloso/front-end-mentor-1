@@ -21,9 +21,8 @@ h1 {
 
 .recipe-container {
     width: 800px;
-    margin: 0 auto;
+    margin: 50px auto;
     background-color: #fff;
-    margin-top: 100px;
     border-radius: 20px;
     padding: 30px;
 }
@@ -81,6 +80,16 @@ li {
 p {
     margin-left: 10px;
     font-weight: normal;
+}
+
+.ingr {
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+    padding-bottom: 25px;
+}
+
+.inst {
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+    padding-bottom: 25px;
 }
 
 table {
