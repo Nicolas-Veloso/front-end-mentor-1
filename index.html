@@ -1,142 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-
-  <title>Frontend Mentor | Recipe page</title>
-
-  <link rel="stylesheet" href="style.css">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap"
-    rel="stylesheet">
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantas na Laje</title>
+    <link rel="stylesheet" href="estilo.css" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
-  <main class="recipe-container">
-    <img src="assets/images/image-omelette.jpeg">
+    <div class="bg_video">
+        <video autoplay muted loop>
+            <source src="video/logovid.mp4" type="video/mp4">
+        </video>
+    </div>  
+    <header id="header">
+        <!-- <div class="conteudo">
+        <div class="flex"> -->
+            <div class="logo">
+            <a href="index.html"><img src="img/plantslogo.png" class="img"></a>
+            </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="loja.html">Loja</a></li>
+                        <li><a href="artigo.html">Artigos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
 
-    <h1>Simple Omelette Recipe</h1>
+    </header>
 
-    An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked
-    to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+    <script src="menu.js"></script>        
 
-    <section class="prep-time">
-      <h3>Preparation time</h3>
+    <div id="contato">
+        <div class="atendimento">
+            <h3>Atendimento</h3>
+            <a href=""><i class="fa-solid fa-phone"></i> (xx) xxxxx-xxxx</a>
+            <a href=""><i class="fa-brands fa-whatsapp"></i> (xx) xxxxx-xxxx</a>
+            <a href=""><i class="fa-solid fa-envelope"></i> xxxx@gmail.com</a>
+            <a href=""><i class="fa-solid fa-clock"></i> horário</a>
 
-      <ul>
-        <li>
-          <p><b>Total:</b> Approximately 10 minutes</p>
-        </li>
-        <li>
-          <p><b>Preparation:</b> 5 minutes</p>
-        </li>
-        <li>
-          <p><b>Cooking:</b> 5 minutes</p>
-        </li>
-      </ul>
-    </section>
-    <section class="ingr">
-      <h2>Ingredients</h2>
 
-      <ul>
-        <li>
-          <p>2-3 large eggs</p>
-        </li>
-        <li>
-          <p>Salt, to taste</p>
-        </li>
-        <li>
-          <p>Pepper, to taste</p>
-        </li>
-        <li>
-          <p>1 tablespoon of butter or oil</p>
-        </li>
-        <li>
-          <p>Optional fillings: cheese, diced vegetables, cooked meats, herbs</p>
-        </li>
-      </ul>
-    </section>
-
-    <section class="inst">
-      <h2>Instructions</h2>
-      <ol>
-        <li>
-          <p><b>Beat the eggs:</b> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
-            You can add a tablespoon of water or milk for a fluffier texture.</p>
-        </li>
-
-        <li>
-          <p><b>Heat the pan:</b> Place a non-stick frying pan over medium heat and add butter or oil.</p>
-        </li>
-
-        <li>
-          <p><b>Cook the omelette:</b> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure
-            the eggs evenly coat the surface.</p>
-        </li>
-
-        <li>
-          <p><b>Add fillings (optional):</b> When the eggs begin to set at the edges but are still slightly runny in the
-            middle, sprinkle your chosen fillings over one half of the omelette.</p>
-        </li>
-
-        <li>
-          <p><b>Fold and serve:</b> As the omelette continues to cook, carefully lift one edge and fold it over the
-            fillings. Let it cook for another minute, then slide it onto a plate.</p>
-        </li>
-
-        <li>
-          <p><b>Enjoy:</b> Serve hot, with additional salt and pepper if needed.</p>
-        </li>
-
-      </ol>
-    </section>
-
-    <h2>Nutrition</h2>
-
-    The table below shows nutritional values per serving without the additional fillings.
-    <table>
-      <tr>
-        <td>Calories</td>
-        <td style="color: hsl(14, 45%, 36%); font-weight: bold;">277kcal</td>
-      </tr>
-      <tr>
-        <td>Carbs</td>
-        <td style="color: hsl(14, 45%, 36%);  font-weight: bold;">0g</td>
-      </tr>
-      <tr>
-        <td>Protein</td>
-        <td style="color: hsl(14, 45%, 36%);  font-weight: bold;">20g</td>
-      </tr>
-      <tr>
-        <td>Fat</td>
-        <td style="color: hsl(14, 45%, 36%);  font-weight: bold;">22g</td>
-      </tr>
-    </table>
-
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Nicolas Veloso</a>.
+            
+        
+        </div>
+        <div class="redesociais">
+            <h3>Rede sociais</h3>
+            <a href=""><i class="fa-brands fa-facebook"></i> Facebook</a>
+            <a href=""><i class="fa-brands fa-instagram"></i> Instagram</a>
+            <a href=""><i class="fa-brands fa-youtube"></i> Youtube</a>
+        <p>osvaldo</p>
+        </div>
     </div>
-  </main>
+
+        <div class="wats">
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    
 </body>
 
 </html>
